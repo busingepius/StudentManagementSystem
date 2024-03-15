@@ -1,5 +1,5 @@
 # StudentManagementSystem
-## MPP Project: 
+## MPP Project:  
 
 ## Problem Statement:
 The Student Management System aims to improve the administrative tasks involved in managing students, courses, instructors, classes, and grades within an academic institution. The current manual processes for student enrollment, course scheduling, grade tracking, and instructor management are inefficient and error-prone, leading to delays, inaccuracies, and frustration among students, faculty, and administrative staff.
