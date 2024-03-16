@@ -22,4 +22,12 @@ public class Student extends Person {
         this.studentID = studentID;
         this.enrollmentDate = enrollmentDate;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "studentID='" + studentID + '\'' +
+                ", enrollmentDate=" + enrollmentDate +
+                '}';
+    }
 }

@@ -82,4 +82,16 @@ public class Person {
     public int hashCode() {
         return Objects.hash(firstName, lastName, phoneNo, email, dateOfBirth);
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", phoneNo='" + phoneNo + '\'' +
+                ", email='" + email + '\'' +
+                ", dateOfBirth=" + dateOfBirth +
+                ", address=" + address +
+                '}';
+    }
 }

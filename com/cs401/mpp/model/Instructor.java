@@ -27,4 +27,11 @@ public class Instructor extends Person {
     public void setInstructorID(String instructorID) {
         this.instructorID = instructorID;
     }
+
+    @Override
+    public String toString() {
+        return "Instructor{" +
+                "instructorID='" + instructorID + '\'' +
+                '}';
+    }
 }
