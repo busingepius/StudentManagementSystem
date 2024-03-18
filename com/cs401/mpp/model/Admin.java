@@ -15,12 +15,14 @@ public class Admin extends Person {
     }
 
     public void addNewStudent(Student student) {
+        students.add(student);
         // add student to student list
     }
 
 
-    public void updateStudentInfo(Student student) {
+    public void updateStudentInfo(int index, Student student) {
         //get
+        students.set(index, student);
     }
 
     public String getAdminId() {
